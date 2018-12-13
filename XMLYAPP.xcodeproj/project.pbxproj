@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C934680B21C13F7700D92EEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C934680A21C13F7700D92EEE /* AppDelegate.swift */; };
+		5F6B6D138E267CA047F47282 /* Pods_XMLYAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE82CE40782FB214A306E1DF /* Pods_XMLYAPP.framework */; };
 		C934680D21C13F7700D92EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C934680C21C13F7700D92EEE /* ViewController.swift */; };
-		C934681021C13F7700D92EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C934680E21C13F7700D92EEE /* Main.storyboard */; };
 		C934681221C13F7700D92EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C934681121C13F7700D92EEE /* Assets.xcassets */; };
-		C934681521C13F7700D92EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C934681321C13F7700D92EEE /* LaunchScreen.storyboard */; };
+		C9E98E6B21C1468500DF94AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E98E6821C1468500DF94AE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B7F5A226EA9A30011B899F6 /* Pods-XMLYAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLYAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMLYAPP/Pods-XMLYAPP.release.xcconfig"; sourceTree = "<group>"; };
+		8420BCB9FABDD54E733899F3 /* Pods-XMLYAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLYAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMLYAPP/Pods-XMLYAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		BE82CE40782FB214A306E1DF /* Pods_XMLYAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMLYAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C934680721C13F7700D92EEE /* XMLYAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLYAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C934680A21C13F7700D92EEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C934680C21C13F7700D92EEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C934680F21C13F7700D92EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C934681121C13F7700D92EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C934681421C13F7700D92EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C934681621C13F7700D92EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E98E6821C1468500DF94AE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +29,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6B6D138E267CA047F47282 /* Pods_XMLYAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EC259D00EE1E5E0B5B5293B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8420BCB9FABDD54E733899F3 /* Pods-XMLYAPP.debug.xcconfig */,
+				3B7F5A226EA9A30011B899F6 /* Pods-XMLYAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE1578656A61C52B84BB4D20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE82CE40782FB214A306E1DF /* Pods_XMLYAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C93467FE21C13F7700D92EEE = {
 			isa = PBXGroup;
 			children = (
 				C934680921C13F7700D92EEE /* XMLYAPP */,
 				C934680821C13F7700D92EEE /* Products */,
+				3EC259D00EE1E5E0B5B5293B /* Pods */,
+				BE1578656A61C52B84BB4D20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +74,76 @@
 		C934680921C13F7700D92EEE /* XMLYAPP */ = {
 			isa = PBXGroup;
 			children = (
-				C934680A21C13F7700D92EEE /* AppDelegate.swift */,
+				C9E98E6221C1468500DF94AE /* Classes */,
 				C934680C21C13F7700D92EEE /* ViewController.swift */,
-				C934680E21C13F7700D92EEE /* Main.storyboard */,
 				C934681121C13F7700D92EEE /* Assets.xcassets */,
-				C934681321C13F7700D92EEE /* LaunchScreen.storyboard */,
 				C934681621C13F7700D92EEE /* Info.plist */,
 			);
 			path = XMLYAPP;
+			sourceTree = "<group>";
+		};
+		C9E98E6221C1468500DF94AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9E98E6721C1468500DF94AE /* AppDelegate */,
+				C9E98E6621C1468500DF94AE /* BaseArchitecture */,
+				C9E98E6A21C1468500DF94AE /* Modules */,
+				C9E98E6321C1468500DF94AE /* Tools */,
+				C9E98E6421C1468500DF94AE /* ThridParty */,
+				C9E98E6521C1468500DF94AE /* Utils */,
+				C9E98E6921C1468500DF94AE /* Resource */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C9E98E6321C1468500DF94AE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C9E98E6421C1468500DF94AE /* ThridParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThridParty;
+			sourceTree = "<group>";
+		};
+		C9E98E6521C1468500DF94AE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C9E98E6621C1468500DF94AE /* BaseArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseArchitecture;
+			sourceTree = "<group>";
+		};
+		C9E98E6721C1468500DF94AE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C9E98E6821C1468500DF94AE /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C9E98E6921C1468500DF94AE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C9E98E6A21C1468500DF94AE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C934681921C13F7700D92EEE /* Build configuration list for PBXNativeTarget "XMLYAPP" */;
 			buildPhases = (
+				05FCAFED0869524C6E67332E /* [CP] Check Pods Manifest.lock */,
 				C934680321C13F7700D92EEE /* Sources */,
 				C934680421C13F7700D92EEE /* Frameworks */,
 				C934680521C13F7700D92EEE /* Resources */,
+				094464D749FF897A1D34C8DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,44 +206,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C934681521C13F7700D92EEE /* LaunchScreen.storyboard in Resources */,
 				C934681221C13F7700D92EEE /* Assets.xcassets in Resources */,
-				C934681021C13F7700D92EEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05FCAFED0869524C6E67332E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMLYAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		094464D749FF897A1D34C8DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XMLYAPP/Pods-XMLYAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DNSPageView/DNSPageView.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LTScrollView/LTScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DNSPageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMLYAPP/Pods-XMLYAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C934680321C13F7700D92EEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E98E6B21C1468500DF94AE /* AppDelegate.swift in Sources */,
 				C934680D21C13F7700D92EEE /* ViewController.swift in Sources */,
-				C934680B21C13F7700D92EEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C934680E21C13F7700D92EEE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C934680F21C13F7700D92EEE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C934681321C13F7700D92EEE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C934681421C13F7700D92EEE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C934681721C13F7700D92EEE /* Debug */ = {
@@ -280,35 +410,45 @@
 		};
 		C934681A21C13F7700D92EEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8420BCB9FABDD54E733899F3 /* Pods-XMLYAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XMLYAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GZ.XMLYAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C934681B21C13F7700D92EEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7F5A226EA9A30011B899F6 /* Pods-XMLYAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XMLYAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GZ.XMLYAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
