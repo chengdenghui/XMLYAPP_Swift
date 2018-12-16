@@ -1,0 +1,27 @@
+{
+  "name": "DHNetWorkModule_swift",
+  "version": "0.1.0",
+  "summary": "A short description of DHNetWorkModule_swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chengdenghui/DHNetWorkModule_swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chengdenghui": "2037276628@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/chengdenghui/DHNetWorkModule_swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DHNetWorkModule_swift/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.7.3"
+    ]
+  }
+}

@@ -7,27 +7,75 @@
 //
 
 import UIKit
+import ESTabBarController_swift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var mainTabBarVC: ViewController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        //1.创建APP窗口
+/*
+         var mainTabBarVC: ViewController?
+         //1.创建APP窗口
+         self.window = UIWindow(frame: UIScreen.main.bounds)
+         //2.设置窗口颜色
+         self.window?.backgroundColor = UIColor.orange
+         //3.设置窗口跟控制器
+         self.mainTabBarVC = ViewController()
+         self.window?.rootViewController = self.mainTabBarVC
+         //显示窗口
+         self.window?.makeKeyAndVisible()
+ */
+
         self.window = UIWindow(frame: UIScreen.main.bounds)
         //2.设置窗口颜色
         self.window?.backgroundColor = UIColor.orange
-        //3.设置窗口跟控制器
-        self.mainTabBarVC = ViewController()
-        self.window?.rootViewController = self.mainTabBarVC
-        //显示窗口
+        let tab = self.customIrregularityStyle(delegate: self as? UITabBarControllerDelegate)
+        self.window?.rootViewController = tab
         self.window?.makeKeyAndVisible()
         
         return true
     }
+    
+    // 加载底部tabbar样式
+    func customIrregularityStyle(delegate: UITabBarControllerDelegate?) -> ESTabBarController {
+        let tabBarController = ESTabBarController()
+        tabBarController.delegate = delegate
+        tabBarController.title = "Irregularity"
+        tabBarController.tabBar.shadowImage = UIImage(named: "transparent")
+        tabBarController.shouldHijackHandler = {
+            tabbarController, viewController, index in
+            return false
+        }
+        tabBarController.didHijackHandler = {
+            [weak tabBarController] tabbarController, viewController, index in
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                //                let vc = FMPlayController()
+                //                tabBarController?.present(vc, animated: true, completion: nil)
+            }
+        }
+
+        
+        let v1 = HomeViewController()
+        let v2 = SearchViewController()
+        let v3 = ProfileViewController()
+        
+        v1.tabBarItem = ESTabBarItem.init(BaseTabBarIrregularityController(), title: "首页", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
+        v2.tabBarItem = ESTabBarItem.init(BaseTabBarIrregularityController(), title: "攻略", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
+        v3.tabBarItem = ESTabBarItem.init(BaseTabBarIrregularityController(), title:  "我的", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
+        let n1 = UINavigationController.init(rootViewController: v1)
+        let n2 = BaseNavigationController.init(rootViewController: v2)
+        let n3 = BaseNavigationController.init(rootViewController: v3)
+        v1.title = "首页"
+        v2.title = "攻略"
+        v3.title = "我的"
+        
+        tabBarController.viewControllers = [n1, n2, n3]
+        return tabBarController
+    }
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5186045ED9F595694C9428E3E74A4105"
+               BlueprintIdentifier = "D3D929C970767E26E71731DCF0A2BC60"
                BuildableName = "Pods_XMLYAPP.framework"
                BlueprintName = "Pods-XMLYAPP"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5186045ED9F595694C9428E3E74A4105"
+            BlueprintIdentifier = "D3D929C970767E26E71731DCF0A2BC60"
             BuildableName = "Pods_XMLYAPP.framework"
             BlueprintName = "Pods-XMLYAPP"
             ReferencedContainer = "container:Pods.xcodeproj">

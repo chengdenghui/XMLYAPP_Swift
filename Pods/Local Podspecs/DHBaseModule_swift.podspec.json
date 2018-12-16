@@ -1,0 +1,44 @@
+{
+  "name": "DHBaseModule_swift",
+  "version": "0.1.0",
+  "summary": "A short description of DHBaseModule_swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitee.com/dengui/DHBaseModule_swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chengdenghui": "2037276628@qq.com"
+  },
+  "source": {
+    "git": "https://gitee.com/dengui/DHBaseModule_swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "ESTabBarController-swift": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "BaseViewController",
+      "source_files": "DHBaseModule_swift/Classes/BaseViewController/**/*"
+    },
+    {
+      "name": "BaseTableView",
+      "source_files": "DHBaseModule_swift/Classes/BaseTableView/**/*"
+    },
+    {
+      "name": "BaseNavigationController",
+      "source_files": "DHBaseModule_swift/Classes/BaseNavigationController/**/*"
+    },
+    {
+      "name": "BaseTabBarViewController",
+      "source_files": "DHBaseModule_swift/Classes/BaseTabBarViewController/**/*"
+    }
+  ]
+}

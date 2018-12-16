@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F6B6D138E267CA047F47282 /* Pods_XMLYAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE82CE40782FB214A306E1DF /* Pods_XMLYAPP.framework */; };
+		91A97E568BB1EE1AC5807503 /* Pods_XMLYAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE82CE40782FB214A306E1DF /* Pods_XMLYAPP.framework */; };
 		C934680D21C13F7700D92EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C934680C21C13F7700D92EEE /* ViewController.swift */; };
 		C934681221C13F7700D92EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C934681121C13F7700D92EEE /* Assets.xcassets */; };
+		C9CC0B0721C64817003FF735 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0AFE21C64817003FF735 /* BaseNavigationController.swift */; };
+		C9CC0B0821C64817003FF735 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B0021C64817003FF735 /* BaseViewController.swift */; };
+		C9CC0B0921C64817003FF735 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B0221C64817003FF735 /* BaseTableViewController.swift */; };
+		C9CC0B0A21C64817003FF735 /* BaseTabBarIrregularityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B0421C64817003FF735 /* BaseTabBarIrregularityController.swift */; };
+		C9CC0B0B21C64817003FF735 /* BaseTabBarBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B0521C64817003FF735 /* BaseTabBarBouncesContentView.swift */; };
+		C9CC0B0C21C64817003FF735 /* BaseTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B0621C64817003FF735 /* BaseTabBarItemContentView.swift */; };
+		C9CC0B1521C64B61003FF735 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B1421C64B61003FF735 /* HomeViewController.swift */; };
+		C9CC0B2921C64BE7003FF735 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B2821C64BE7003FF735 /* SearchViewController.swift */; };
+		C9CC0B2B21C64C0A003FF735 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B2A21C64C0A003FF735 /* ProfileViewController.swift */; };
 		C9E98E6B21C1468500DF94AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E98E6821C1468500DF94AE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +30,16 @@
 		C934680C21C13F7700D92EEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C934681121C13F7700D92EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C934681621C13F7700D92EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9CC0AED21C637B9003FF735 /* DHBaseModule_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DHBaseModule_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CC0AFE21C64817003FF735 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		C9CC0B0021C64817003FF735 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C9CC0B0221C64817003FF735 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		C9CC0B0421C64817003FF735 /* BaseTabBarIrregularityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarIrregularityController.swift; sourceTree = "<group>"; };
+		C9CC0B0521C64817003FF735 /* BaseTabBarBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarBouncesContentView.swift; sourceTree = "<group>"; };
+		C9CC0B0621C64817003FF735 /* BaseTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarItemContentView.swift; sourceTree = "<group>"; };
+		C9CC0B1421C64B61003FF735 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C9CC0B2821C64BE7003FF735 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C9CC0B2A21C64C0A003FF735 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C9E98E6821C1468500DF94AE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -29,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6B6D138E267CA047F47282 /* Pods_XMLYAPP.framework in Frameworks */,
+				91A97E568BB1EE1AC5807503 /* Pods_XMLYAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +67,7 @@
 		BE1578656A61C52B84BB4D20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9CC0AED21C637B9003FF735 /* DHBaseModule_swift.framework */,
 				BE82CE40782FB214A306E1DF /* Pods_XMLYAPP.framework */,
 			);
 			name = Frameworks;
@@ -80,6 +100,227 @@
 				C934681621C13F7700D92EEE /* Info.plist */,
 			);
 			path = XMLYAPP;
+			sourceTree = "<group>";
+		};
+		C9CC0AFB21C64817003FF735 /* BaseArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0AFC21C64817003FF735 /* DHBaseModule_swift */,
+			);
+			name = BaseArchitecture;
+			sourceTree = "<group>";
+		};
+		C9CC0AFC21C64817003FF735 /* DHBaseModule_swift */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0AFD21C64817003FF735 /* BaseNavigationController */,
+				C9CC0AFF21C64817003FF735 /* BaseViewController */,
+				C9CC0B0121C64817003FF735 /* BaseTableView */,
+				C9CC0B0321C64817003FF735 /* BaseTabBarViewController */,
+			);
+			path = DHBaseModule_swift;
+			sourceTree = "<group>";
+		};
+		C9CC0AFD21C64817003FF735 /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0AFE21C64817003FF735 /* BaseNavigationController.swift */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		C9CC0AFF21C64817003FF735 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B0021C64817003FF735 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		C9CC0B0121C64817003FF735 /* BaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B0221C64817003FF735 /* BaseTableViewController.swift */,
+			);
+			path = BaseTableView;
+			sourceTree = "<group>";
+		};
+		C9CC0B0321C64817003FF735 /* BaseTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B0421C64817003FF735 /* BaseTabBarIrregularityController.swift */,
+				C9CC0B0521C64817003FF735 /* BaseTabBarBouncesContentView.swift */,
+				C9CC0B0621C64817003FF735 /* BaseTabBarItemContentView.swift */,
+			);
+			path = BaseTabBarViewController;
+			sourceTree = "<group>";
+		};
+		C9CC0B0D21C64B61003FF735 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B0E21C64B61003FF735 /* Host */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C9CC0B0E21C64B61003FF735 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B1321C64B61003FF735 /* Controllers */,
+				C9CC0B0F21C64B61003FF735 /* ViewModel */,
+				C9CC0B1021C64B61003FF735 /* Model */,
+				C9CC0B1121C64B61003FF735 /* View */,
+				C9CC0B1221C64B61003FF735 /* API */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		C9CC0B0F21C64B61003FF735 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9CC0B1021C64B61003FF735 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9CC0B1121C64B61003FF735 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9CC0B1221C64B61003FF735 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C9CC0B1321C64B61003FF735 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B1421C64B61003FF735 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C9CC0B1621C64B94003FF735 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B1721C64B94003FF735 /* Host */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C9CC0B1721C64B94003FF735 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B1C21C64B94003FF735 /* Controllers */,
+				C9CC0B1821C64B94003FF735 /* ViewModel */,
+				C9CC0B1921C64B94003FF735 /* Model */,
+				C9CC0B1A21C64B94003FF735 /* View */,
+				C9CC0B1B21C64B94003FF735 /* API */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		C9CC0B1821C64B94003FF735 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9CC0B1921C64B94003FF735 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9CC0B1A21C64B94003FF735 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9CC0B1B21C64B94003FF735 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C9CC0B1C21C64B94003FF735 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B2A21C64C0A003FF735 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C9CC0B1E21C64B94003FF735 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B1F21C64B94003FF735 /* Host */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C9CC0B1F21C64B94003FF735 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B2421C64B94003FF735 /* Controllers */,
+				C9CC0B2021C64B94003FF735 /* ViewModel */,
+				C9CC0B2121C64B94003FF735 /* Model */,
+				C9CC0B2221C64B94003FF735 /* View */,
+				C9CC0B2321C64B94003FF735 /* API */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		C9CC0B2021C64B94003FF735 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9CC0B2121C64B94003FF735 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9CC0B2221C64B94003FF735 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9CC0B2321C64B94003FF735 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C9CC0B2421C64B94003FF735 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B2821C64BE7003FF735 /* SearchViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		C9E98E6221C1468500DF94AE /* Classes */ = {
@@ -120,6 +361,7 @@
 		C9E98E6621C1468500DF94AE /* BaseArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				C9CC0AFB21C64817003FF735 /* BaseArchitecture */,
 			);
 			path = BaseArchitecture;
 			sourceTree = "<group>";
@@ -142,6 +384,9 @@
 		C9E98E6A21C1468500DF94AE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				C9CC0B0D21C64B61003FF735 /* Home */,
+				C9CC0B1E21C64B94003FF735 /* Search */,
+				C9CC0B1621C64B94003FF735 /* Profile */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -157,7 +402,7 @@
 				C934680321C13F7700D92EEE /* Sources */,
 				C934680421C13F7700D92EEE /* Frameworks */,
 				C934680521C13F7700D92EEE /* Resources */,
-				094464D749FF897A1D34C8DD /* [CP] Embed Pods Frameworks */,
+				B4A4AC0B10B4C924E928A5E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,46 +476,18 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		094464D749FF897A1D34C8DD /* [CP] Embed Pods Frameworks */ = {
+		B4A4AC0B10B4C924E928A5E2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XMLYAPP/Pods-XMLYAPP-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/DNSPageView/DNSPageView.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
-				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
-				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/LTScrollView/LTScrollView.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DNSPageView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTScrollView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -284,8 +501,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9CC0B0921C64817003FF735 /* BaseTableViewController.swift in Sources */,
+				C9CC0B0821C64817003FF735 /* BaseViewController.swift in Sources */,
+				C9CC0B0C21C64817003FF735 /* BaseTabBarItemContentView.swift in Sources */,
+				C9CC0B0721C64817003FF735 /* BaseNavigationController.swift in Sources */,
 				C9E98E6B21C1468500DF94AE /* AppDelegate.swift in Sources */,
+				C9CC0B2B21C64C0A003FF735 /* ProfileViewController.swift in Sources */,
+				C9CC0B2921C64BE7003FF735 /* SearchViewController.swift in Sources */,
+				C9CC0B1521C64B61003FF735 /* HomeViewController.swift in Sources */,
 				C934680D21C13F7700D92EEE /* ViewController.swift in Sources */,
+				C9CC0B0B21C64817003FF735 /* BaseTabBarBouncesContentView.swift in Sources */,
+				C9CC0B0A21C64817003FF735 /* BaseTabBarIrregularityController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +643,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XMLYAPP/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,7 +665,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XMLYAPP/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
