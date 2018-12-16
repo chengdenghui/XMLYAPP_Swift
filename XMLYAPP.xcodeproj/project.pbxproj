@@ -19,6 +19,11 @@
 		C9CC0B1521C64B61003FF735 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B1421C64B61003FF735 /* HomeViewController.swift */; };
 		C9CC0B2921C64BE7003FF735 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B2821C64BE7003FF735 /* SearchViewController.swift */; };
 		C9CC0B2B21C64C0A003FF735 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B2A21C64C0A003FF735 /* ProfileViewController.swift */; };
+		C9CC0B3421C658CC003FF735 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B2E21C658CC003FF735 /* WRNavigationBar.swift */; };
+		C9CC0B3521C658CC003FF735 /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B2F21C658CC003FF735 /* WRCustomNavigationBar.swift */; };
+		C9CC0B3621C658CC003FF735 /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B3121C658CC003FF735 /* WRProxy.swift */; };
+		C9CC0B3721C658CC003FF735 /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B3221C658CC003FF735 /* WRCycleScrollView.swift */; };
+		C9CC0B3821C658CC003FF735 /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B3321C658CC003FF735 /* WRCycleCell.swift */; };
 		C9E98E6B21C1468500DF94AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E98E6821C1468500DF94AE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +45,11 @@
 		C9CC0B1421C64B61003FF735 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C9CC0B2821C64BE7003FF735 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C9CC0B2A21C64C0A003FF735 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C9CC0B2E21C658CC003FF735 /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		C9CC0B2F21C658CC003FF735 /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
+		C9CC0B3121C658CC003FF735 /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
+		C9CC0B3221C658CC003FF735 /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
+		C9CC0B3321C658CC003FF735 /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
 		C9E98E6821C1468500DF94AE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -323,6 +333,35 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		C9CC0B2C21C65803003FF735 /* Librartys */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B2D21C658CC003FF735 /* WRNavigationBar */,
+			);
+			name = Librartys;
+			path = XMLYAPP/Classes/Librartys;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9CC0B2D21C658CC003FF735 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B2E21C658CC003FF735 /* WRNavigationBar.swift */,
+				C9CC0B2F21C658CC003FF735 /* WRCustomNavigationBar.swift */,
+				C9CC0B3021C658CC003FF735 /* WRCycleScrollView */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		C9CC0B3021C658CC003FF735 /* WRCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC0B3121C658CC003FF735 /* WRProxy.swift */,
+				C9CC0B3221C658CC003FF735 /* WRCycleScrollView.swift */,
+				C9CC0B3321C658CC003FF735 /* WRCycleCell.swift */,
+			);
+			path = WRCycleScrollView;
+			sourceTree = "<group>";
+		};
 		C9E98E6221C1468500DF94AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,7 +369,7 @@
 				C9E98E6621C1468500DF94AE /* BaseArchitecture */,
 				C9E98E6A21C1468500DF94AE /* Modules */,
 				C9E98E6321C1468500DF94AE /* Tools */,
-				C9E98E6421C1468500DF94AE /* ThridParty */,
+				C9CC0B2C21C65803003FF735 /* Librartys */,
 				C9E98E6521C1468500DF94AE /* Utils */,
 				C9E98E6921C1468500DF94AE /* Resource */,
 			);
@@ -342,13 +381,6 @@
 			children = (
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		C9E98E6421C1468500DF94AE /* ThridParty */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ThridParty;
 			sourceTree = "<group>";
 		};
 		C9E98E6521C1468500DF94AE /* Utils */ = {
@@ -484,10 +516,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XMLYAPP/Pods-XMLYAPP-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -506,12 +540,17 @@
 				C9CC0B0C21C64817003FF735 /* BaseTabBarItemContentView.swift in Sources */,
 				C9CC0B0721C64817003FF735 /* BaseNavigationController.swift in Sources */,
 				C9E98E6B21C1468500DF94AE /* AppDelegate.swift in Sources */,
+				C9CC0B3821C658CC003FF735 /* WRCycleCell.swift in Sources */,
 				C9CC0B2B21C64C0A003FF735 /* ProfileViewController.swift in Sources */,
+				C9CC0B3721C658CC003FF735 /* WRCycleScrollView.swift in Sources */,
+				C9CC0B3421C658CC003FF735 /* WRNavigationBar.swift in Sources */,
 				C9CC0B2921C64BE7003FF735 /* SearchViewController.swift in Sources */,
 				C9CC0B1521C64B61003FF735 /* HomeViewController.swift in Sources */,
 				C934680D21C13F7700D92EEE /* ViewController.swift in Sources */,
 				C9CC0B0B21C64817003FF735 /* BaseTabBarBouncesContentView.swift in Sources */,
 				C9CC0B0A21C64817003FF735 /* BaseTabBarIrregularityController.swift in Sources */,
+				C9CC0B3521C658CC003FF735 /* WRCustomNavigationBar.swift in Sources */,
+				C9CC0B3621C658CC003FF735 /* WRProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

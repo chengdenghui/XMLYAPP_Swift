@@ -1,16 +1,20 @@
 PODS:
   - ESTabBarController-swift (2.6.3)
+  - Kingfisher (4.10.0)
 
 DEPENDENCIES:
-  - ESTabBarController-swift
+  - ESTabBarController-swift (~> 2.6.3)
+  - Kingfisher
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ESTabBarController-swift
+    - Kingfisher
 
 SPEC CHECKSUMS:
   ESTabBarController-swift: edb8d8bc2cd043a8ddb43ab501fefdf9865ac519
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
 
-PODFILE CHECKSUM: 31f21cebb1a2480b912218e08465482d5fdde06f
+PODFILE CHECKSUM: bb21c0949e527f670d3ca99aa9942f47f301b154
 
 COCOAPODS: 1.5.3

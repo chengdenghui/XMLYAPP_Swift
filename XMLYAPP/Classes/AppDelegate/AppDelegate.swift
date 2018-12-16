@@ -64,7 +64,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         v1.tabBarItem = ESTabBarItem.init(BaseTabBarIrregularityController(), title: "首页", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
         v2.tabBarItem = ESTabBarItem.init(BaseTabBarIrregularityController(), title: "攻略", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
         v3.tabBarItem = ESTabBarItem.init(BaseTabBarIrregularityController(), title:  "我的", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
-        let n1 = UINavigationController.init(rootViewController: v1)
+        let n1 = BaseNavigationController.init(rootViewController: v1)
         let n2 = BaseNavigationController.init(rootViewController: v2)
         let n3 = BaseNavigationController.init(rootViewController: v3)
         v1.title = "首页"

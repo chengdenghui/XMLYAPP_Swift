@@ -2,10 +2,9 @@ platform:ios,'9.0'
 target 'XMLYAPP' do
 use_frameworks!
 #    pod 'SnapKit'
-#    pod 'Kingfisher'
+    pod 'Kingfisher'
 #    #tabbar样式
-    pod 'ESTabBarController-swift'
-
+    pod 'ESTabBarController-swift', '~>2.6.3'
 
     #本地类库
 #    pod 'DHBaseModule_swift',        :path=>'../DHPrivatePods_swift/DHBaseModule_swift'
