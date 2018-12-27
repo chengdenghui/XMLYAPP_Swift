@@ -6,8 +6,4 @@ use_frameworks!
 #    #tabbar样式
     pod 'ESTabBarController-swift', '~>2.6.3'
 
-    #本地类库
-#    pod 'DHBaseModule_swift',        :path=>'../DHPrivatePods_swift/DHBaseModule_swift'
-#    pod 'DHNetWorkModule_swift',         :path=>'../DHPrivatePods_swift/DHNetWorkModule_swift'
-
 end
