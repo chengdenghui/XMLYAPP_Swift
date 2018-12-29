@@ -66,6 +66,10 @@ extension HomeRecommendViewController : UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let VC = HomeRecommendDetailViewController()
         VC.titleStr = "推荐详情页"
+        //第四步 闭包调用部分进行传值
+        VC.changeText = { (names) -> () in
+            print("------\(names)")
+        }
         self.navigationController?.pushViewController(VC, animated: true)
     }
 

@@ -12,21 +12,25 @@ class HomeRecommendDetailViewController: BaseViewController {
     //属性定义
     var titleStr = String()
     
+    //闭包函数
+    //第一步 申请一个闭包
+    typealias changeUserName = (String) ->()
+    
+    //第二步 把闭包声明成属性
+    var changeText : changeUserName?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         title = titleStr
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        //第三步  闭包传数据
+        changeText!("回调获得一票🎫")
+        self.navigationController?.popViewController(animated: true)
     }
-    */
+    
 
 }
