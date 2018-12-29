@@ -1,20 +1,28 @@
 PODS:
+  - DNSPageView (1.1.1)
   - ESTabBarController-swift (2.6.3)
   - Kingfisher (4.10.0)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
+  - DNSPageView
   - ESTabBarController-swift (~> 2.6.3)
   - Kingfisher
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DNSPageView
     - ESTabBarController-swift
     - Kingfisher
+    - SnapKit
 
 SPEC CHECKSUMS:
+  DNSPageView: c8598a6d38ee4191191e326cbd5198b641245aaf
   ESTabBarController-swift: edb8d8bc2cd043a8ddb43ab501fefdf9865ac519
   Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 5599776d4cfbfeb2d4a80288aeec11b29f29f6ba
+PODFILE CHECKSUM: 6eedfb0c7090215cea1a766a9e255afc19f6705d
 
 COCOAPODS: 1.5.3

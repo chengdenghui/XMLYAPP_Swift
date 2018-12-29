@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class ProfileViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // 设置导航栏颜色

@@ -1,19 +1,21 @@
 //
-//  FindViewController.swift
+//  HomeRecommendDetailViewController.swift
 //  XMLYAPP
 //
-//  Created by chengdenghui on 2018/12/27.
+//  Created by chengdenghui on 2018/12/29.
 //  Copyright © 2018 程登辉. All rights reserved.
 //
 
 import UIKit
 
-class FindViewController: BaseViewController {
-
+class HomeRecommendDetailViewController: BaseViewController {
+    //属性定义
+    var titleStr = String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.white
+        title = titleStr
     }
     
 

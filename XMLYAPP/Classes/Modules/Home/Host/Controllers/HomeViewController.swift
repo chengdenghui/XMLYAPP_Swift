@@ -7,24 +7,32 @@
 //
 
 import UIKit
+import DNSPageView
 
-class HomeViewController: UIViewController {
+class HomeViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-        // Do any additional setup after loading the view.
+        // 创建DNSPageStyle，设置样式
+        let style = DNSPageStyle()
+        style.isTitleViewScrollEnabled = false  //titleView滑动
+        style.isTitleScaleEnabled = true           //tittle标题缩放
+        style.isShowBottomLine = true            //title下划线
+        style.titleSelectedColor = UIColor.black
+        style.titleColor = UIColor.gray
+        style.bottomLineColor = DominantColor
+        style.bottomLineHeight = 2
+        
+        let titles = ["推荐","分类","VIP","直播","广播"]
+        let viewControllers:[UIViewController] = [HomeRecommendViewController(),HomeRecommendViewController(),HomeRecommendViewController(),HomeRecommendViewController(),HomeRecommendViewController()]
+        //for循环添加控制器
+        for vc in viewControllers{
+            self.addChildViewController(vc)
+        }
+        let pageView = DNSPageView(frame: CGRect(x: 0, y: NavigationBarHeight, width: KScreenWith, height: KScreenHeight-NavigationBarHeight-44), style: style, titles: titles, childViewControllers: viewControllers)
+        view.addSubview(pageView)
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -19,7 +19,7 @@ import UIKit
     {
         // 设置导航栏默认的背景颜色
         WRNavigationBar.defaultNavBarBarTintColor = UIColor.init(red: 245/255.0, green: 245/255.0, blue: 245/255.0, alpha: 1)
-        // 设置导航栏所有按钮的默认颜色
+        // 设置导航栏所有按钮的默认颜色   UIColor.init(red: 242/255.0, green: 77/255.0, blue: 51/255.0, alpha: 1)
         WRNavigationBar.defaultNavBarTintColor = UIColor.init(red: 242/255.0, green: 77/255.0, blue: 51/255.0, alpha: 1)
         // 设置导航栏标题默认颜色
         WRNavigationBar.defaultNavBarTitleColor = .black

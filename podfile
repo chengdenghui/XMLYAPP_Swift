@@ -1,9 +1,9 @@
 platform:ios,'9.0'
 target 'XMLYAPP' do
 use_frameworks!
-#    pod 'SnapKit'
-    pod 'Kingfisher'
-#    #tabbar样式
-    pod 'ESTabBarController-swift', '~>2.6.3'
+    pod 'SnapKit'                   #布局  自动布局框架，类似于Masonry
+    pod 'Kingfisher'               # 图片处理库 下载缓存图片
+    pod 'ESTabBarController-swift', '~>2.6.3'    #tabbar样式
+    pod 'DNSPageView'         # 分页
 
 end

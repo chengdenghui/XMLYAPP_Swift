@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PlayViewController: UIViewController {
+class PlayViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -11,6 +11,13 @@
 		C9088BCD21D50005004E071A /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9088BCC21D50005004E071A /* FindViewController.swift */; };
 		C9088BD621D5019E004E071A /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9088BD521D5019E004E071A /* PlayViewController.swift */; };
 		C934681221C13F7700D92EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C934681121C13F7700D92EEE /* Assets.xcassets */; };
+		C935815121D7102900EEC47C /* HomeRecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935815021D7102900EEC47C /* HomeRecommendModel.swift */; };
+		C935815321D71ADE00EEC47C /* HomeRecommendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935815221D71ADE00EEC47C /* HomeRecommendDetailViewController.swift */; };
+		C935815D21D7473700EEC47C /* UINavigationBar+YHIndicatorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C935815921D7473700EEC47C /* UINavigationBar+YHIndicatorImage.m */; };
+		C935815E21D7473700EEC47C /* UINavigationController+YHBackTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = C935815C21D7473700EEC47C /* UINavigationController+YHBackTitle.m */; };
+		C959FC0121D650F4006CB1E2 /* HomeRecommendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959FC0021D650F4006CB1E2 /* HomeRecommendTableViewCell.swift */; };
+		C996CFD921D5C5CF00EED3AF /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = C996CFD821D5C5CF00EED3AF /* Const.swift */; };
+		C996CFE121D5CA1700EED3AF /* HomeRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C996CFE021D5CA1700EED3AF /* HomeRecommendViewController.swift */; };
 		C9CC0B0721C64817003FF735 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0AFE21C64817003FF735 /* BaseNavigationController.swift */; };
 		C9CC0B0821C64817003FF735 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B0021C64817003FF735 /* BaseViewController.swift */; };
 		C9CC0B0921C64817003FF735 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC0B0221C64817003FF735 /* BaseTableViewController.swift */; };
@@ -37,6 +44,15 @@
 		C934680721C13F7700D92EEE /* XMLYAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLYAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C934681121C13F7700D92EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C934681621C13F7700D92EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C935815021D7102900EEC47C /* HomeRecommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendModel.swift; sourceTree = "<group>"; };
+		C935815221D71ADE00EEC47C /* HomeRecommendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendDetailViewController.swift; sourceTree = "<group>"; };
+		C935815921D7473700EEC47C /* UINavigationBar+YHIndicatorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+YHIndicatorImage.m"; sourceTree = "<group>"; };
+		C935815A21D7473700EEC47C /* UINavigationController+YHBackTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+YHBackTitle.h"; sourceTree = "<group>"; };
+		C935815B21D7473700EEC47C /* UINavigationBar+YHIndicatorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+YHIndicatorImage.h"; sourceTree = "<group>"; };
+		C935815C21D7473700EEC47C /* UINavigationController+YHBackTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+YHBackTitle.m"; sourceTree = "<group>"; };
+		C959FC0021D650F4006CB1E2 /* HomeRecommendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendTableViewCell.swift; sourceTree = "<group>"; };
+		C996CFD821D5C5CF00EED3AF /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		C996CFE021D5CA1700EED3AF /* HomeRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendViewController.swift; sourceTree = "<group>"; };
 		C9CC0AED21C637B9003FF735 /* DHBaseModule_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DHBaseModule_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CC0AFE21C64817003FF735 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		C9CC0B0021C64817003FF735 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -225,6 +241,68 @@
 			path = XMLYAPP;
 			sourceTree = "<group>";
 		};
+		C935815821D7473700EEC47C /* yh_navgation */ = {
+			isa = PBXGroup;
+			children = (
+				C935815B21D7473700EEC47C /* UINavigationBar+YHIndicatorImage.h */,
+				C935815921D7473700EEC47C /* UINavigationBar+YHIndicatorImage.m */,
+				C935815A21D7473700EEC47C /* UINavigationController+YHBackTitle.h */,
+				C935815C21D7473700EEC47C /* UINavigationController+YHBackTitle.m */,
+			);
+			path = yh_navgation;
+			sourceTree = "<group>";
+		};
+		C996CFDA21D5C9C300EED3AF /* HomeRecommend */ = {
+			isa = PBXGroup;
+			children = (
+				C996CFDF21D5C9C300EED3AF /* Controllers */,
+				C996CFDB21D5C9C300EED3AF /* ViewModel */,
+				C996CFDC21D5C9C300EED3AF /* Model */,
+				C996CFDD21D5C9C300EED3AF /* View */,
+				C996CFDE21D5C9C300EED3AF /* API */,
+			);
+			path = HomeRecommend;
+			sourceTree = "<group>";
+		};
+		C996CFDB21D5C9C300EED3AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C996CFDC21D5C9C300EED3AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C935815021D7102900EEC47C /* HomeRecommendModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C996CFDD21D5C9C300EED3AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C959FC0021D650F4006CB1E2 /* HomeRecommendTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C996CFDE21D5C9C300EED3AF /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C996CFDF21D5C9C300EED3AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C996CFE021D5CA1700EED3AF /* HomeRecommendViewController.swift */,
+				C935815221D71ADE00EEC47C /* HomeRecommendDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		C9CC0AFB21C64817003FF735 /* BaseArchitecture */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +360,7 @@
 			isa = PBXGroup;
 			children = (
 				C9CC0B0E21C64B61003FF735 /* Host */,
+				C996CFDA21D5C9C300EED3AF /* HomeRecommend */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -449,6 +528,7 @@
 		C9CC0B2C21C65803003FF735 /* Librartys */ = {
 			isa = PBXGroup;
 			children = (
+				C935815821D7473700EEC47C /* yh_navgation */,
 				C9CC0B2D21C658CC003FF735 /* WRNavigationBar */,
 			);
 			name = Librartys;
@@ -499,6 +579,7 @@
 		C9E98E6521C1468500DF94AE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C996CFD821D5C5CF00EED3AF /* Const.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -572,6 +653,7 @@
 				TargetAttributes = {
 					C934680621C13F7700D92EEE = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -630,13 +712,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XMLYAPP/Pods-XMLYAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DNSPageView/DNSPageView.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DNSPageView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -650,14 +736,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C935815E21D7473700EEC47C /* UINavigationController+YHBackTitle.m in Sources */,
 				C9CC0B0921C64817003FF735 /* BaseTableViewController.swift in Sources */,
+				C935815321D71ADE00EEC47C /* HomeRecommendDetailViewController.swift in Sources */,
 				C9CC0B0821C64817003FF735 /* BaseViewController.swift in Sources */,
+				C959FC0121D650F4006CB1E2 /* HomeRecommendTableViewCell.swift in Sources */,
+				C935815121D7102900EEC47C /* HomeRecommendModel.swift in Sources */,
 				C9CC0B0C21C64817003FF735 /* BaseTabBarItemContentView.swift in Sources */,
 				C9088BCD21D50005004E071A /* FindViewController.swift in Sources */,
 				C9CC0B0721C64817003FF735 /* BaseNavigationController.swift in Sources */,
 				C9E98E6B21C1468500DF94AE /* AppDelegate.swift in Sources */,
 				C9CC0B3821C658CC003FF735 /* WRCycleCell.swift in Sources */,
+				C935815D21D7473700EEC47C /* UINavigationBar+YHIndicatorImage.m in Sources */,
 				C9CC0B2B21C64C0A003FF735 /* ProfileViewController.swift in Sources */,
+				C996CFE121D5CA1700EED3AF /* HomeRecommendViewController.swift in Sources */,
 				C9CC0B3721C658CC003FF735 /* WRCycleScrollView.swift in Sources */,
 				C9088BD621D5019E004E071A /* PlayViewController.swift in Sources */,
 				C9CC0B3421C658CC003FF735 /* WRNavigationBar.swift in Sources */,
@@ -667,6 +759,7 @@
 				C9CC0B0A21C64817003FF735 /* BaseTabBarIrregularityController.swift in Sources */,
 				C9CC0B3521C658CC003FF735 /* WRCustomNavigationBar.swift in Sources */,
 				C9CC0B3621C658CC003FF735 /* WRProxy.swift in Sources */,
+				C996CFD921D5C5CF00EED3AF /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,6 +888,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q7DMWUG6ZD;
 				INFOPLIST_FILE = XMLYAPP/Info.plist;
@@ -806,6 +900,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gezhi.HappyStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = GZHappyStudy_kaifa;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -817,6 +913,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q7DMWUG6ZD;
 				INFOPLIST_FILE = XMLYAPP/Info.plist;
@@ -828,6 +925,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gezhi.HappyStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = GZHappyStudy_kaifa;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
